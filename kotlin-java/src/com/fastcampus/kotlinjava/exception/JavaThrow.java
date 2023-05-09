@@ -9,8 +9,14 @@ public class JavaThrow {
     }
 
     public static void main(String[] args) {
-
+//        JavaThrow javaThrow = new JavaThrow();
+//        try {
+//            javaThrow.throwIOException();
+//        } catch (IOException e) {
+//
+//        }
         KotlinThrow kotlinThrow = new KotlinThrow();
+//        kotlinThrow.throwIOException();
         try {
             kotlinThrow.throwIOException();
         } catch(IOException e) {
