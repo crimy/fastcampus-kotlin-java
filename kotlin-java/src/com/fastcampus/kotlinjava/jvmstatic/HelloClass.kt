@@ -6,6 +6,7 @@ class HelloClass {
 
         @JvmStatic
         fun hello() = "hello!"
+        fun helloNotStatic() = "Hello"
 
     }
 }
@@ -14,6 +15,7 @@ object HiObject {
 
     @JvmStatic
     fun hi() = "hi!"
+    fun hiNotStatic() = "hi!"
 }
 
 fun main() {

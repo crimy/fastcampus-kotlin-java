@@ -6,6 +6,8 @@ class JvmFieldClass {
         @JvmField
         val id = 1234
 
+        val idCompanion = 1234
+
         const val CODE = 1234
     }
 }

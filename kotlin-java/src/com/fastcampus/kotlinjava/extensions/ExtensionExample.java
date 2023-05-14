@@ -5,8 +5,11 @@ public class ExtensionExample {
     public static void main(String[] args) {
         //"ABCD".first();
 
-        MyExtensionsKt.first("ABCD");
-        MyExtensionsKt.addFirstChar("ABCD", 'Z');
+        char first = MyExtensionsKt.first("ABCD");
+        System.out.println(first);
+
+        String addFirst = MyExtensionsKt.addFirstChar("ABCD", 'Z');
+        System.out.println(addFirst);
 
     }
 }
